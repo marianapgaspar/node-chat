@@ -20,7 +20,7 @@ async function loadApi(){
     const res =  await fetch("http://localhost:3000/tableJson").then((data) => data.json())
     res.messages.map(message => {
         addMessage(message)
-    })
+    }) 
 }
 loadApi()   
 

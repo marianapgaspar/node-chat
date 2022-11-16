@@ -17,7 +17,7 @@
 - mongoose v6.7.0
 - dotenv v16.0.3
 - nodemon v2.0.20
-- body-parser v1.20
+- body-parser v1.20 
 
 ## Screenshots
 ![first_list](./img/image1.jpeg)

@@ -16,7 +16,7 @@ exports.add = (req,res) => {
     const message = new messageModel(req.body);
     message.save().then(result => res.json({
         add: result
-    }))
+    })) 
 }
 
 exports.deleteMessage = (req,res) => {
